@@ -21,9 +21,9 @@ exclude:
 #  - RUBY_VERSION: 2.3.0
 
 # Exclude rows
-  - DATABASE: oracle
-  - DATABASE: RDS
+#  - DATABASE: oracle
+#  - DATABASE: RDS
 
-
-#  - RUBY_VERSION: 2.3.0
-#    DATABASE: oracle
+# Exclude the intersection of rows & columns
+  - RUBY_VERSION: 2.3.0
+    DATABASE: oracle
