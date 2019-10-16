@@ -16,7 +16,8 @@ DATABASE:
   - oracle
   
 exclude:
-  - RUBY_VERSION:
-    - 2.1.8
-  - DATABASE:
-    - oracle
+  - RUBY_VERSION: 2.1.8
+  - RUBY_VERSION: 2.3.0
+
+#  - RUBY_VERSION: 2.3.0
+#    DATABASE: oracle
