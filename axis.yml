@@ -24,6 +24,10 @@ exclude:
 #  - DATABASE: oracle
 #  - DATABASE: RDS
 
+# Exclude row and column together
+  - RUBY_VERSION: 2.1.8
+  - DATABASE: dynanmodb
+
 # Exclude the intersection of rows & columns
-  - RUBY_VERSION: 2.3.0
-    DATABASE: oracle
+#  - RUBY_VERSION: 2.3.0
+#    DATABASE: oracle
