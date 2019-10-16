@@ -13,6 +13,7 @@ DATABASE:
   - RDS
   - dynanmodb
   - postgress
+  - oracle
   
 exclude:
   - RUBY_VERSION: 2.1.8
