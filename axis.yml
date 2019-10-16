@@ -16,8 +16,14 @@ DATABASE:
   - oracle
   
 exclude:
-  - RUBY_VERSION: 2.1.8
-  - RUBY_VERSION: 2.3.0
+# Exclude columns
+#  - RUBY_VERSION: 2.1.8
+#  - RUBY_VERSION: 2.3.0
+
+# Exclude rows
+  - DATABASE: oracle
+  - DATABASE: RDS
+
 
 #  - RUBY_VERSION: 2.3.0
 #    DATABASE: oracle
