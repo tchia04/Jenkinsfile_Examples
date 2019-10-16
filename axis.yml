@@ -5,6 +5,13 @@ RUBY_VERSION:
   - 2.5.1
   - 2.6.3
 
+DATABASE:
+  - mysql
+  - aurora
+  - RDS
+  - dynanmodb
+  - postgress
+  
 exclude:
   RUBY_VERSION:
     - 2.1.8
